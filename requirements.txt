@@ -5,8 +5,6 @@ cachetools==4.2.2
 certifi==2020.6.20
 chardet==3.0.4
 click==8.0.1
-cupshelpers==1.0
-cx-Oracle==8.1.0
 cycler==0.10.0
 dataclasses==0.8
 defer==1.0.6
@@ -43,14 +41,12 @@ oauth==1.0.1
 oauthlib==2.0.6
 olefile==0.45.1
 packaging==20.4
-pandas==1.1.5
 pexpect==4.2.1
 pkginfo==1.5.0.1
 protobuf==3.17.1
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycairo==1.16.2
-pycrypto==2.6.1
 pycups==1.9.73
 Pygments==2.7.1
 pygobject==3.26.1
