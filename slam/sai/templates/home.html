@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>sai.com</title>
+</head>
+
+<body   >
+    <h2 class='my-2'><i>Sai's slambook</i> </h2>
+    <form method="POST" action="/sai/">
+        {% csrf_token %}
+        <div class="container">
+            <div class="mb-3">
+                <b>Name: </b><input type="text" id="name" name="name" placeholder="Enter name">
+            </div>
+
+            <div class="mb-3">
+                <b>Our reletion: </b><input type="text" id='rel' name='rel' placeholder="Your reletion with me">
+            </div>
+            <fieldset>
+            <legend>How much do you know about me?? </legend>
+                <div class="mb-3">
+                    </i>
+                    <label for="exampleFormControlInput1" class="form-label"><b>Sai's BFF: </b></label>
+                    <input type="radio" name="a1" value='Jyotya'>Jyotya
+                    <input type="radio" name="a1" value='Roshan'>Roshan
+                    <input type="radio" name="a1" value='Aditi'>Aditi
+                    <input type="radio" name="a1" value='Shreya'>Shreya
+                    <input type="radio" name="a1" value='Kanad'>Kanad<br>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"><b>Sai's favourite colour: </b></label> 
+                    <input type="radio" name="v1" value="Pink">Pink
+					<input type="radio" name="v1" value="Blue">Blue
+					<input type="radio" name="v1" value="Black">Black
+					<input type="radio" name="v1" value="Red">Red
+					<input type="radio" name="v1" value="Any other">Any other<br>
+                </div>
+
+                <div class="mb-3">
+                    <b>Sai's fav. character: </b>
+                    <input type="radio" name="b1" value ='krishna'>Krishna
+                    <input type="radio" name="b1" value='draupadi'>Draupadi
+                    <input type="radio" name="b1" value='arjun'>Arjun
+                    <input type="radio" name="b1" value='other_char'>Any other<br>
+                </div>
+
+                <div class="mb-3">
+                    <b>Sai's favourite quality: </b>
+                    <input type="checkbox" name="c1" value='obedient'>obedient
+                    <input type="checkbox" name="c1" value='honesty'>honesty
+                    <input type="checkbox" name="c1" value='caring'>caring
+                    <input type="checkbox" name="c1" value='adaptable'>adaptable
+                    <input type="checkbox" name="c1" value='ambitious'>ambitious
+                    <input type="checkbox" name="c1" value='oter_quality'>any other<br>
+                </div>
+
+                <div class="mb-3">
+                    <b>I'm emotional with: </b>
+                    <input type="checkbox" name="d1" value='family'>family
+                    <input type="checkbox" name="d1" value='kolhapur'>Kolhapur
+                    <input type="checkbox" name="d1" value='friends'>friends
+                    <input type="checkbox" name="d1" value='phone'>Mobile Phone
+                    <input type="checkbox" name="d1" value='oter_emo'>any other<b>
+                </div>
+            <div class="mb-3">
+                My first impression: <input type="text" name='impression' id='impression' >
+            </div>
+        </div>
+        </fieldset>
+
+
+
+        <div class="form-group">
+            Your favourite memory with me: <br>
+            <textarea id="dsc" rows="3" name="memory"></textarea>
+        </div>
+
+        <div class="form-group">
+            Honestly, I'm to you:<br>
+            <textarea id="dsc" rows="3" name="honest"></textarea>
+        </div>
+        <br>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
