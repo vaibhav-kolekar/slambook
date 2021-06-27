@@ -1,16 +1,12 @@
 asgiref==3.3.1
 asn1crypto==0.24.0
-beautifulsoup4==4.9.3
-bleach==3.2.1
 blinker==1.4
-Brlapi==0.6.6
 cachetools==4.2.2
 certifi==2020.6.20
 chardet==3.0.4
 click==8.0.1
 colorama==0.4.3
 command-not-found==0.3
-cryptography==2.1.4
 cupshelpers==1.0
 cx-Oracle==8.1.0
 cycler==0.10.0
@@ -33,7 +29,6 @@ idna==2.6
 importlib-metadata==2.0.0
 itsdangerous==2.0.1
 jeepney==0.4.3
-Jinja2==3.0.1
 joblib==1.0.1
 Js2Py==0.71
 kazam==1.4.5
@@ -52,7 +47,6 @@ olefile==0.45.1
 packaging==20.4
 pandas==1.1.5
 pexpect==4.2.1
-pipwin==0.5.1
 pkginfo==1.5.0.1
 protobuf==3.17.1
 pyasn1==0.4.8
@@ -66,7 +60,6 @@ pyjsparser==2.7.1
 PyJWT==1.5.3
 pyloco==0.0.139
 pymacaroons==0.13.0
-pymongo==3.11.3
 PyNaCl==1.1.2
 pyparsing==2.4.7
 PyPrind==2.11.3
@@ -97,7 +90,6 @@ ssh-import-id==5.7
 system-service==0.3
 systemd-python==234
 threadpoolctl==2.1.0
-torchvision==0.9.1
 tqdm==4.50.0
 twine==3.2.0
 typing==3.7.4.3
